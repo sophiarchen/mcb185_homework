@@ -1,2 +1,2 @@
 # mcb185_homework
-This is my README. Hi!
+This is my README.
