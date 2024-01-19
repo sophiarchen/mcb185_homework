@@ -3,4 +3,3 @@ echo $HOME
 echo $SHELL
 echo $PWD
 echo $PATH
-echo "test"
