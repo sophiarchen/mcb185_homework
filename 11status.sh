@@ -1,3 +1,4 @@
+#Authors: Sophia Chen, Devin Fan
 date
 sh 10env.sh
 uname -a
