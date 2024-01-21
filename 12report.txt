@@ -1,0 +1,14 @@
+Sat Jan 20 16:28:02 PST 2024
+sophia
+/Users/sophia
+/bin/zsh
+/Users/sophia/Code/mcb185_homework
+/opt/anaconda3/bin:/opt/anaconda3/condabin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin
+Darwin Sophias-MacBook-Pro-81.local 22.5.0 Darwin Kernel Version 22.5.0: Thu Jun  8 22:22:22 PDT 2023; root:xnu-8796.121.3~7/RELEASE_X86_64 x86_64
+Python 3.9.13
+/Users/sophia/Code
+/Users/sophia/Code/mcb185_homework
+/Users/sophia/Code/mcb185_homework/.git
+/Users/sophia/Code/MCB185
+/Users/sophia/Code/MCB185/.git
+/Users/sophia/Code/MCB185/data
