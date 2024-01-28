@@ -35,7 +35,7 @@ def shannon_entropy(a, c, t, g):
 		info_t = math.log2(prob_t)
 		info_g = math.log2(prob_g)
 		h = -(prob_a * info_a + prob_c * info_c + prob_t * info_t + prob_g * info_g)
-	print('Shannon entropy is:', round(h, 4))
+	print('Shannon entropy is:', round(h, 3))
 	return h
 	
 shannon_entropy(4, 4, 4, 4)
