@@ -3,7 +3,7 @@
 import math
 
 def oligo_temp(a, t, c, g):
-	oligo_length = (a + t + c + g)/2
+	oligo_length = (a + t + c + g)
 	if oligo_length <= 13:
 		tm = (a+t)*2 + (g+c)*4
 	else:
@@ -12,8 +12,8 @@ def oligo_temp(a, t, c, g):
 	return tm
 	
 
-oligo_temp(8, 8, 4, 4)
+oligo_temp(4, 4, 4, 4)
 
-oligo_temp(8, 8, 6, 6)
+oligo_temp(2, 2, 3, 3)
 
 oligo_temp(10, 10, 10, 10)
