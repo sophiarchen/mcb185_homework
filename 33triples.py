@@ -3,6 +3,7 @@
 import math
 
 limit = 100
+
 for s1 in range(1, limit):
 	for s2 in range(s1 + 1, limit):
 		hypotenuse = math.sqrt(s1**2 + s2**2)
