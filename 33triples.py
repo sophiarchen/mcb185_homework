@@ -1,4 +1,4 @@
-#33triples.py by Sophia Chen
+#33triples.py by Sophia Chen and Devin Fan
 
 import math
 
