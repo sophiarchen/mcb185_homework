@@ -33,4 +33,4 @@ def pi_comp(n):
 		const_ni = const_ni * -1
 		print(pi_ni, 4*pi_gl)
 		
-pi_comp(10)
+pi_comp(100)
