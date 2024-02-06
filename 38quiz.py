@@ -1,6 +1,5 @@
 #Co-Authors: Sophia Chen and Devin Fan
 
-"""
 pi = 0
 const = 1 
 x = 1
@@ -11,7 +10,6 @@ for i in range(0, 100000):
 	const = const * -1
 pi = pi * 4
 print(pi)
-"""
 
 def pi_comp(n):
 	pi_gl = 0
@@ -26,7 +24,7 @@ def pi_comp(n):
 		pi_gl = pi_gl + (const_gl / x_gl)
 		x_gl = x_gl + 2
 		const_gl = const_gl * -1
-		pi_ni = pi_ni + (const_ni / (x_ni * y_ni * z_ni))
+		pi_ni = (pi + 3) + (const_ni / (x_ni * y_ni * z_ni))
 		x_ni = x_ni + 2
 		y_ni = y_ni + 2
 		z_ni = z_ni + 2
