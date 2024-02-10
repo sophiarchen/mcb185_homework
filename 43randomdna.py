@@ -1,4 +1,4 @@
-#43randomdna.py by Sophia Chen
+#43randomdna.py by Sophia Chen and Devin Fan
 
 import random
 
