@@ -1,6 +1,6 @@
-36D average stat value: 10.52
-36Dr1 average stat value: 11.75
-3D6x2 average stat value: 13.38
+36D average stat value: 10.52<br/>
+36Dr1 average stat value: 11.75<br/>
+3D6x2 average stat value: 13.38<br/>
 4D6d1 average stat value: 12.22
 
 DC	Normal	Adv	    Disadv
