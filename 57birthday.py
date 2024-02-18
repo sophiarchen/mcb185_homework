@@ -24,4 +24,4 @@ for j in range(trials):
 			break
 
 chance = (shared_bdays / trials) * 100
-print(f'There is a {chance}% there is a shared birthday.')
+print(f'There is a {chance:.2f}% there is a shared birthday.')
