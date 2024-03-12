@@ -17,9 +17,10 @@ Participation
 | U | AC | VP | AQ | OC | SH | SA | CA | OA | Tot | Notes
 |:-:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:---:|:--------
 | 5 |  2 |    |    |  2 |    |    |  4 |    |  8  | 
-| 6 |
-| 7 | 
-| 8 | 
+| 6 |  4 |    |    |  2 |    |  1 |    |    |  7  |
+| 7 |  4 |    |    |    |  2 |    |    |  1 |  7  |  
+| 8 |  4 |    |    |    |  2 |    |    |    |  6  |
 | 9 |
 
 Notes:
++ Helped classmate fix their code during Coderie
