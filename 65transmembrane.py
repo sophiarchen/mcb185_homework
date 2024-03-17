@@ -46,7 +46,7 @@ def kyte(seq):
 
 def hydroreg(seq):
 	sigpep = seq[:30]
-	for i in range(len(sigpep) - 7):
+	for i in range(len(sigpep) - 8 + 1):
 		signal = sigpep[i:i+8]
 		if 'P' in signal: continue
 		kyteval = kyte(signal)
@@ -55,7 +55,7 @@ def hydroreg(seq):
 			break
 	if sigpep != True: return False
 	transreg = seq[30:]
-	for i in range(len(transreg) - 10):
+	for i in range(len(transreg) - 11 + 1):
 		trans = transreg[i:i+11]
 		if 'P' in trans: continue
 		kyteval = kyte(trans)
