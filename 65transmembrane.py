@@ -43,31 +43,28 @@ def kyte(seq):
 			hydro_value += -1.30
 	return hydro_value / len(seq)
 
-
-def hydroreg(seq):
+def signal_pep(seq):
 	sigpep = seq[:30]
 	for i in range(len(sigpep) - 8 + 1):
 		signal = sigpep[i:i+8]
 		if 'P' in signal: continue
 		kyteval = kyte(signal)
-		if kyteval >= 2.5: 
-			sigpep = True
-			break
-	if sigpep != True: return False
+		if kyteval >= 2.5: return True
+	return False
+
+def trans_reg(seq):
 	transreg = seq[30:]
 	for i in range(len(transreg) - 11 + 1):
 		trans = transreg[i:i+11]
 		if 'P' in trans: continue
 		kyteval = kyte(trans)
-		if kyteval >= 2.0:
-			transreg = True
-			break
-	if transreg == True: return True
-	else:                return False	
+		if kyteval >= 2.0: return True 
+	return False
 	
 for defline, seq in mcb185.read_fasta(sys.argv[1]):
-	transpro = hydroreg(seq)
-	if transpro == True: print(defline)
+	sig = signal_pep(seq)
+	trans = trans_reg(seq)
+	if sig == True and trans == True: print(defline)
 	
 	
 
