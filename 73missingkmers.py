@@ -8,7 +8,6 @@ import sys
 k = 1 
 kcount = {}
 n = 0 
-
 for defline, seq in mcb185.read_fasta(sys.argv[1]):
 	rc = dogma.revcomp(seq)
 	while n < 1: #condition breaks when missing kmers are found
@@ -28,3 +27,4 @@ for defline, seq in mcb185.read_fasta(sys.argv[1]):
 				print(kmer)
 				n += 1
 		k += 1
+		kcount = {} #clears dictionary after each iteration
