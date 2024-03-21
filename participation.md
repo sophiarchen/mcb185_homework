@@ -20,7 +20,7 @@ Participation
 | 6 |  4 |    |    |  2 |    |  1 |    |    |  7  |
 | 7 |  4 |    |    |    |  2 |    |    |  1 |  7  |  
 | 8 |  4 |    |    |    |  2 |    |    |    |  6  |
-| 9 |
+| 9 |  4 |    |    |    |  2 |  1 |    |    |  7  |
 
 Notes:
 + Helped classmate fix their code during Coderie
